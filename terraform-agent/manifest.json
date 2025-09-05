@@ -1,0 +1,8 @@
+{
+  "container": "hashicorp/terraform:1.6",
+  "install": "apk add --no-cache bash git curl",
+  "update": "apk update && apk upgrade",
+  "run": "terraform"
+,
+  "about": "Infrastructure as Code. Plan, apply, destroy cloud resources"
+}
